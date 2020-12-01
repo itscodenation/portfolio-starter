@@ -1,5 +1,78 @@
 /* CSS files add styling rules to your content */
 
 h1 {
-  color: green;
+  color: blue;
+  text-align: center;
+  font-family: "Anton", sans-serif;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+body {
+  background-color: cyan;
+}
+
+.contact-list {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.home-intro {
+  text-align: center;
+}
+
+p {
+  font-family: "Open Sans Condensed", sans-serif;
+  color: blue;
+}
+
+.me-desc {
+  color: blue;
+  text-align: center;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+.family-pic-1 {
+  width: 500px;
+}
+
+.family-pic-2 {
+  width: 500px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.img6 {
+  width: 500px;
+}
+
+.img5 {
+  width: 500px;
+}
+
+.img4 {
+  width: 500px;
+}
+
+.img3 {
+  width: 500px;
+}
+
+.img2 {
+  width: 500px;
+}
+
+.img1 {
+  width: 500px;
 }
