@@ -1,5 +1,41 @@
 /* CSS files add styling rules to your content */
 
 h1 {
-  color: green;
+  color: lightblue;
+  background:gray;
+  border: solid lightblue 10px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+h2 {
+  text-align:center;
+}
+.container{
+  display: flex;
+  justify-content: space-around;
+  border:solid lightblue 10px;
+}
+.index{
+  color:blue;
+}
+.aboutme{ 
+  color: grey;
+}
+.projects{
+  color: blue;
+}
+.contacts{
+  color:grey;
+}
+.profile {
+  border: solid gold 10px;
+  margins:10px;
+  padding: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.aboutme1 {
+  border:Solid lightblue 10px;
 }
