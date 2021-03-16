@@ -5,7 +5,7 @@
 console.log("hi");
 
 $(".home-page").click(function() {
-  window.location.href = "home.html";
+  window.location.href = "index.html";
 });
 
 $(".about-page").click(function() {
