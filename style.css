@@ -1,5 +1,72 @@
 /* CSS files add styling rules to your content */
+body {
+  background-color: #eee;
+  font-family: sans-serif;
+  color: #444;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p,
+a {
+  line-height: 150%;
+}
 
 h1 {
-  color: green;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  color: #444;
+}
+
+h1 .leader {
+  font-style: normal;
+  font-size: 80%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+
+.navbar a, input[type=submit] {
+  background: salmon;
+  padding: 6px;
+  margin: 2px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  font-size: 80%;
+  flex-grow: 1;
+  text-align: center;
+  border: 0;
+}
+
+.navbar a:visited {
+  color: #fff;
+}
+
+.navbar a.selected {
+  background-color: firebrick;
+}
+
+.photo-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.photo-container img {
+   border-radius: 200px; 
+}
+
+input[type=submit] {
+  padding: 10px;
+}
+
+input[type=text], textarea {
+  border: solid 2px salmon;
+  padding: 6px;
+  width:100%;
+  max-width: 400px;
 }
