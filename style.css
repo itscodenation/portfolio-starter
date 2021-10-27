@@ -1,5 +1,14 @@
-/* CSS files add styling rules to your content */
+.begining{
+  background-color:#e4edeb;
+  display:flex;
+}
 
-h1 {
-  color: green;
+.umbrella{
+  height:200px;
+  margin:12px;
+  margin-left:49px;
+  margin-right:100px;
+}
+.header{
+  margin-top:90px;
 }
