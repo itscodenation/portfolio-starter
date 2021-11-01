@@ -1,72 +1,82 @@
+:root {
+  --main-bg-color: BlanchedAlmond;
+  --secondary-bg-color: LightSalmon;
+  --highlight-bg-color: Salmon;
+  --main-text-color: IndianRed;
+  --link-color: DarkRed;
+}
+
 /* CSS files add styling rules to your content */
 body {
-  background-color: #eee;
-  font-family: sans-serif;
-  color: #444;
-  padding: 20px;
-  font-family: 'Montserrat', sans-serif;
-}
-
-p,
-a {
-  line-height: 150%;
-}
-
-h1 {
-  font-family: "Playfair Display", serif;
-  font-style: italic;
-  color: #444;
-}
-
-h1 .leader {
-  font-style: normal;
-  font-size: 80%;
-}
-
-.navbar {
-  display: flex;
-  justify-content: center;
-}
-
-
-.navbar a, input[type=submit] {
-  background: salmon;
-  padding: 6px;
-  margin: 2px;
-  text-decoration: none;
-  font-weight: bold;
-  color: #fff;
-  font-size: 80%;
-  flex-grow: 1;
-  text-align: center;
-  border: 0;
-}
-
-.navbar a:visited {
-  color: #fff;
-}
-
-.navbar a.selected {
-  background-color: firebrick;
-}
-
-.photo-container {
-  display: flex;
-  justify-content: center;
-  padding: 20px;
-}
-
-.photo-container img {
-   border-radius: 200px; 
-}
-
-input[type=submit] {
+  font-family: 'Urbanist', sans-serif;
+  background-color: var(--main-bg-color);
   padding: 10px;
+  text-align: center;
 }
 
-input[type=text], textarea {
-  border: solid 2px salmon;
-  padding: 6px;
-  width:100%;
-  max-width: 400px;
+
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', serif;
+  color: var(--main-text-color);
+}
+
+p {
+  color: var(--main-text-color);
+}
+
+a {
+  color: var(--link-color);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:not(#navbar a):hover {
+  background-color: var(--secondary-bg-color);
+  padding: 4px;
+  margin: -4px;
+  border-radius: 4px;
+}
+
+#navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 2px;
+  min-height: 40px;
+  justify-content: center;
+  align-items: stretch;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#navbar li {
+  width: 100%;  
+  text-align: center;
+  /*border: 1px solid red;*/
+  position: relative; 
+}
+
+#navbar a {
+  text-decoration: none;
+  width: calc(100% - 2px);
+  height: calc(100% - 2px);
+  /*border: 1px solid red;*/
+  background-color: var(--secondary-bg-color);
+  display: block;
+  line-height: 250%;
+  color: #fff;
+}
+
+#navbar a:hover {
+  background-color: var(--highlight-bg-color);
+}
+
+#navbar a.selected {
+  background-color: var(--main-text-color);
+}
+
+.portrait {
+  border-radius: 2000px;
+  width: 200px;
 }

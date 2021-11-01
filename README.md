@@ -12,35 +12,35 @@ In this unit, coders will review HTML and CSS concepts from the Introduction to 
 
 - [x] Go to the repository.
 
-- [x] Fork this repository to your GitHub account.
+- [ ] Fork this repository to your GitHub account.
 
-- [x] Create a new project on Glitch that imports your repo from GitHub.
+- [ ] Create a new project on Glitch that imports your repo from GitHub.
 
 - [ ] Submit your GitHub repo link and Glitch Project Page links on the Agenda.
 
 ### HTML
 
-- [x] Add a header with your name to your Portfolio homepage.
+- [ ] Add a header with your name to your Portfolio homepage.
 
-- [x] Update the title tag of both of your pages.
+- [ ] Update the title tag of both of your pages.
 
-- [x] Create your navigation bar that will link all your pages together.
+- [ ] Create your navigation bar that will link all your pages together.
 
-- [x] Give your HTML elements classes in order to add Flexbox to the CSS.
+- [ ] Give your HTML elements classes in order to add Flexbox to the CSS.
 
-- [x] Write your biography on your About Me page.
+- [ ] Write your biography on your About Me page.
 
 ### CSS
 
-- [x] Choose 2-4 colors for your theme and add them as font or background colors.
+- [ ] Choose 2-4 colors for your theme and add them as font or background colors.
 
-- [x] Add flexbox to your navigation bar.
+- [ ] Add flexbox to your navigation bar.
 
-- [x] Add at least 1 Google Font.
+- [ ] Add at least 1 Google Font.
 
 ### Wrap
 
-- [x] Submit your work to the session agenda.
+- [ ] Submit your work to the session agenda.
 
 ## Day 2
 
@@ -62,18 +62,18 @@ In this unit, coders will review HTML and CSS concepts from the Introduction to 
 
 In your Projects page, create a display of at least 4 of your old coding projects that includes:
 
-- [ ] Project name
-- [ ] Link to project GitHub repo
-- [ ] Link to project live site
-- [ ] Short description of project including coding languages used
-- [ ] Hosted screenshot of project
+    - [ ] Project name
+    - [ ] Link to project GitHub repo
+    - [ ] Link to project live site
+    - [ ] Short description of project including coding languages used
+    - [ ] Hosted screenshot of project
 
 Add your contact information to your Contact page, including your:
 
-- [ ] GitHub account
-- [ ] Email address
-- [ ] LinkedIn
-- [ ] Resume
+    - [ ] GitHub account
+    - [ ] Email address
+    - [ ] LinkedIn
+    - [ ] Resume
 
 ### CSS
 
