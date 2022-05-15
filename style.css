@@ -1,14 +1,213 @@
+button:hover{
+  border:inset 8px gray;
+  padding:10px;
+  
+}
+.move{
+  margin-left:10px;
+}
+/*This is my home page decor below*/
+/*first section*/
 .begining{
-  background-color:#e4edeb;
+  background-color:#e3deff;
+  display:flex;
+  border-bottom:10px solid black;
+}
+
+
+.header{
+  margin-top:50px;
+  margin-left:150px;
+  margin-bottom:70;
+  text=-color:;
+  font-family:Coming Soon;
+}
+/*second section*/
+.hb1{
+  text-color:;
+  border:10px inset white;
+}
+
+.hb11{
+  background-color:#f9f7ff;
+  color:gray;
   display:flex;
 }
 
-.umbrella{
-  height:200px;
-  margin:12px;
-  margin-left:49px;
-  margin-right:100px;
+.in-between{
+  padding:50px;
+  border:outset 10px #b6aecf;
+  background-color:#cdcad9;
+  display:flex;
+  justify-content:space-between;
+  font-family:Zen Kurenaido;
+  font-size:18px;
+  color:white;
 }
-.header{
-  margin-top:90px;
+.home-button{
+  padding-left:10px;
+  padding-right:10px;
+  background-color:#eeedf2;
+  border:3px inset black;
+  margin:5px;
+  margin-left:20px;
+
+}
+
+/* This is my about me decor below */
+/*first section*/
+.begining2{
+  background-color:#f5ba9d;
+  display:flex;
+  border-bottom:10px solid black;
+}
+
+
+.header2{
+  margin-top:50px;
+  margin-left:150px;
+  margin-bottom:70;
+  font-family:Coming Soon;
+}
+/*second section*/
+.hb112{
+  background-color:#e3c2a6;
+  color:#f5f5f5;
+  display:flex;
+}
+
+.personal{
+  display:flex;
+  background-color:#fff2ed;
+  border-bottom:solid black 5px;
+}
+.words2u{
+  margin-left:50px;
+  font-family:kalam;
+}
+.abimage{
+  background-color:white;
+  margin:10px;
+  border:4px solid #ffe5d6;
+}
+/*third section*/
+.row{
+  	display:flex;
+    flex-direction:column;
+    margin:10px;
+}
+.schools{
+  display:flex;
+  background-color:#f0f0f0;
+  border-bottom:solid black 5px;
+}
+.csize{
+  font-size:24px;
+  padding:10px;
+  padding-top:60px;
+  padding-bottom:60px;
+  margin-right:200px;
+  border:10px white inset;
+  background-color:#f7d5c1;
+  font-family:PT Sans;
+  color:white;
+}
+.csize:hover{
+  border:inset 8px gray;
+  padding-top:70px;
+  padding-bottom:70px;
+  background-color:#f7e7d5;
+}
+
+.imgandc{
+  text-align:center;
+  font-family:PT Sans;
+}
+.cptner{
+  border-left:black 2px solid;
+  border-right:black 2px solid;
+}
+
+/*fourth section*/
+.status{
+  background-color:#fff2ed;
+  display:flex;
+  border-bottom:solid black 5px;
+  
+}
+.statimg{
+  margin:10px;
+  margin-right:20px;
+  background-color:white;
+  padding:10px;
+  border:4px solid #ffe5d6;
+}
+.lister{
+  font-family:kalam;
+  font-size:22px;
+}
+/*Below is contacts page*/
+/*header*/
+.contacts_info{
+  background-color:#ededed;
+}
+.begining3{
+  background-color:#c7c7b1;
+  display:flex;
+  border-bottom:10px solid black;
+}
+
+
+.header3{
+  margin-top:50px;
+  margin-left:150px;
+  margin-bottom:70;
+  font-family:Coming Soon;
+}
+
+.ci{
+  background-color:white;
+  border:10px black solid;
+  padding:7px;
+}
+.hb113{
+  background-color:#e8e8df;
+  color:#f5f5f5;
+  display:flex;
+}
+/*Below is projects page*/
+.begining4{
+  background-color:#add1db;
+  display:flex;
+  border-bottom:10px solid black;
+}
+
+
+.header4{
+  margin-top:50px;
+  margin-left:150px;
+  margin-bottom:70;
+  font-family:Coming Soon;
+}
+
+.yrone{
+  background-color:white;
+  border:7px solid black;
+  padding:6px;
+}
+
+.hb114{
+  background-color:#a4b8de;
+}
+
+.CNs1{
+  padding:6px;
+  background-color:white;
+  border:7px solid black;
+}
+
+.hb114{
+  background-color:#c8dbe0;
+  color:#f5f5f5;
+  display:flex;
 }

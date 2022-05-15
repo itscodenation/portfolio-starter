@@ -1,3 +1,4 @@
+
 /*
 This is your site JavaScript code - you can add interactivity and carry out processing
 - Initially the JS writes a message to the console, and moves a button you can add from the README
@@ -25,3 +26,18 @@ if (btn) {
 This is a comment that can span multiple lines 
 - use comments to make your own notes!
 */
+
+$('.Ele').click(function(){
+  $('.imger').attr("src","https://s3-us-west-2.amazonaws.com/schoolmint-chooser-media/oakland/images/606-2.jpg");
+  $('.cptner').text("My Elementary School");
+});
+
+$('.Middle').click(function(){
+  $('.imger').attr("src","https://s3-us-west-2.amazonaws.com/schoolmint-chooser-media/oakland/images/642.jpg");
+  $('.cptner').text("My Middle School");
+});
+
+$('.High').click(function(){
+  $('.imger').attr("src","https://upload.wikimedia.org/wikipedia/commons/b/b9/Oakland_Technical_High.jpg");
+  $('.cptner').text("My High School");
+}); 
